@@ -40,7 +40,7 @@
     }
     
     .item_3{
-        padding: 25px;
+        padding: 0px  25px 25px 25px;
     }
     .item_4,
     .item_5,
@@ -59,15 +59,17 @@
         
     }
     
-    .presentation {
+    .presentation,h3,h2,.cercle {
         line-height: 1.7;
         text-align: justify;
-        font-size: 26px;
+        font-size: 23px;
+        padding: 0px 20px 0px 20px;
+       
     }
     
     .photo_vanel {
-        border-radius: 500px;
-        margin: 30px 0px 30px 0px;
+        margin: 0px;
+        height: auto;
     }
     figure{
         margin: 0px;

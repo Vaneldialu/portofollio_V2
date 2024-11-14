@@ -8,14 +8,14 @@
         
     }
     
-    .containair_0 {
+    .containair {
         padding: 0px ;
         margin: 0px;
         overflow: hidden;
         
     }
     
-    .containair_1 {
+    .header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -39,16 +39,16 @@
         font-size: 18px;
     }
     
-    .item_3{
+    .textAndCercle{
         padding: 0px  25px 25px 25px;
     }
-    .item_4,
-    .item_5,
-    .item_6{
+    .phoneNumber,
+    .email,
+    .reseauxSociaux{
         line-height: 1;
     }
     
-    .containair_2 {
+    .contenuPrincipal {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -75,7 +75,7 @@
         margin: 0px;
     }
     
-    .containair_3 {
+    .footer {
         display: flex;
         flex-direction: column;
         gap: 20px;

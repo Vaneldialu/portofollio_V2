@@ -5,13 +5,13 @@
         
     }
     
-    .containair_0 {
+    .containair {
         padding: 0px 7vw 0px 7vw;
         height: 0px; 
         line-height: 1.5;
     }
     
-    .containair_1 {
+    .header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -45,12 +45,12 @@
         font-size: 18px;
     }
     
-    .item_3{
+    textAndCercle{
         width: 80dvw;
         margin-left: 5dvw;
     }
     
-    .containair_2 {
+    .contenuPrincipal {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -78,7 +78,7 @@
         size: 9cm;
     }
     
-    .containair_3 {
+    .footer {
         display: flex;
         gap: 30px;
         justify-content: space-between;

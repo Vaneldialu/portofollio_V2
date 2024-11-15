@@ -78,7 +78,7 @@
         size: 9cm;
     }
     
-    .footer {
+    footer {
         display: flex;
         gap: 30px;
         justify-content: space-between;
@@ -108,7 +108,7 @@
         font-weight: bold;
     }
     
-    h2 {
+    h1 {
         font-size: 50px;
     }
     
@@ -129,7 +129,7 @@
         color: black;
         font-weight: bold;
     }
-    h3{
+    h2{
         font-size: 23px;
     }
     h5{

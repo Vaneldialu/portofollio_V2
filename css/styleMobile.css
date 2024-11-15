@@ -46,6 +46,7 @@
     .email,
     .reseauxSociaux{
         line-height: 1;
+       
     }
     
     .contenuPrincipal {
@@ -59,7 +60,7 @@
         
     }
     
-    .presentation,h3,h2,.cercle {
+    .presentation,h2,h1,.cercle {
         line-height: 1.7;
         text-align: justify;
         font-size: 23px;
@@ -75,7 +76,7 @@
         margin: 0px;
     }
     
-    .footer {
+    footer {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -107,7 +108,7 @@
         font-size: 20px;
     }
     
-    h2 {
+    h1 {
         font-size: 40px;
     }
 

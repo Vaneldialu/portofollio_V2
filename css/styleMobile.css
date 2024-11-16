@@ -4,7 +4,7 @@
     body {
         font-family: 'Ubuntu',Helvetica, sans-serif;
         line-height: 1.5;
-        
+        overflow-x: hidden;
         
     }
     
@@ -39,9 +39,9 @@
         font-size: 18px;
     }
     
-    .main__text-btnColors{
+    /* .main__text-btnColors{
         padding: 0px  25px 25px 25px;
-    }
+    } */
     .phoneNumber,
     .footer__email,
     .reseauxSociaux{
@@ -88,7 +88,9 @@
         text-align: center;
     }
 
-    .footer__phoneNumber{
+    .footer__phoneNumber,
+    .footer__email,
+    .footer__reseauxSociaux{
         display: flex;
         flex-direction: column;
         gap: 10px;

@@ -169,10 +169,13 @@ h5{
    
 }
 .imgProjet{
+    display: inline-block;
     border-radius: 10px ;
     border: 30px solid rgb(241, 241, 241);
+    padding: 0;
     width: 50%;
     object-fit: cover;
+    height: auto;
 }
 .descriptProjet{
     width: 50%;
@@ -181,6 +184,7 @@ h5{
 figure{
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
 }
 [href='#top']{
     display: none;

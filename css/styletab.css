@@ -45,7 +45,7 @@
         font-size: 18px;
     }
     
-    main__text-btnColors{
+    .main__text-btnColors{
         width: 80dvw;
         margin-left: 5dvw;
     }
@@ -80,9 +80,9 @@
     
     footer {
         display: flex;
-        gap: 30px;
+        gap: 10px;
         justify-content: space-between;
-        margin: 30px;
+        margin-right: 30px;
         padding-bottom: 30px;
         
     }
@@ -141,7 +141,7 @@
     }
     
     .projetCard{
-        display: flex;
+       
         gap: 30px;
         margin: 30px;
         
@@ -153,18 +153,23 @@
     .imgProjet{
         border-radius: 10px ;
         border: 30px solid rgb(241, 241, 241);
-        width: 50%;
+        width: 90%;
         object-fit: cover;
         height: auto;
     }
     .descriptProjet{
-        width: 50%;
+        width: 100%;
         font-size: 20px;
         text-align: justify;
+        display: block;
     }
     figure{
         margin: 0px;
         padding: 0px;
+    }
+    .containairProjet{
+        display: flex;
+        flex-direction: column;
     }
   
     .dispositionContact{

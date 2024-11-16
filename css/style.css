@@ -3,11 +3,14 @@ body {
     font-family: 'Ubuntu',Helvetica, sans-serif;  
     
 }
-
+.hidden{
+    overflow: hidden;
+}
 .containair {
     padding: 0px 7vw 0px 7vw;
     height: 0px; 
     line-height: 1.5;
+   
 }
 
 .header {
@@ -44,12 +47,12 @@ ul{
     font-size: 18px;
 }
 
-.textAndCercle{
+.main__text-btnColors{
     width: 30dvw;
     margin-left: 5dvw;
 }
 
-.contenuPrincipal {
+main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +89,8 @@ footer {
     
 }
 
-.cercle {
+
+.main__groupe-btnColors {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -96,7 +100,7 @@ footer {
   
 }
 
-.cercle_couleur {
+.main__groupe-btnColors_couleur {
     border: ridge 1px black;
     border-radius: 100px;
     width: 100px;
@@ -168,20 +172,29 @@ figure{
 }
 .dispositionContact{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-top: 100px;
-    gap: 500px;
+    gap: 50px;
     font-size: 20px;
-    margin: 25dvh 10dvw 25dvh 10dvw;
+    margin: 20dvh 10dvw 20dvh 10dvw;
+}
+.firstContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
 }
 
 form{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 40px;
     row-gap: 30px;
-    
+    width: 50%;
 }
+
+
+   
 input{
     height: 40px;
     width: 13dvw;
@@ -189,8 +202,16 @@ input{
 }
 textarea{
     height: 100px;
-    width: 14dvw;
+    width: 110%;
     margin-right: 3dvw;
 }
-
+button{
+    margin-left: 50px;
 }
+
+ 
+ 
+  
+}
+
+

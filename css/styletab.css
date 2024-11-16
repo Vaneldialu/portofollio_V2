@@ -45,12 +45,12 @@
         font-size: 18px;
     }
     
-    textAndCercle{
+    main__text-btnColors{
         width: 80dvw;
         margin-left: 5dvw;
     }
     
-    .contenuPrincipal {
+    main {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -87,7 +87,7 @@
         
     }
     
-    .cercle {
+    .main__groupe-btnColors {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -97,7 +97,7 @@
       
     }
     
-    .cercle_couleur {
+    .main__groupe-btnColors_couleur {
         border: ridge 1px black;
         border-radius: 100px;
         width: 100px;

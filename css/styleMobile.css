@@ -11,7 +11,7 @@
     .containair {
         padding: 0px ;
         margin: 0px;
-        overflow: hidden;
+        
         
     }
     
@@ -39,17 +39,17 @@
         font-size: 18px;
     }
     
-    .textAndCercle{
+    .main__text-btnColors{
         padding: 0px  25px 25px 25px;
     }
     .phoneNumber,
-    .email,
+    .footer__email,
     .reseauxSociaux{
         line-height: 1;
        
     }
     
-    .contenuPrincipal {
+    main {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -60,7 +60,10 @@
         
     }
     
-    .presentation,h2,h1,.cercle {
+    .presentation,
+    h2,
+    h1,
+    .main__groupe-btnColors {
         line-height: 1.7;
         text-align: justify;
         font-size: 23px;
@@ -84,8 +87,14 @@
         margin: 30px;
         text-align: center;
     }
+
+    .footer__phoneNumber{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     
-    .cercle {
+    .main__groupe-btnColors {
         display: flex;
         
         justify-content: center;
@@ -96,7 +105,7 @@
       
     }
     
-    .cercle_couleur {
+    .main__groupe-btnColors_couleur {
         border: ridge 1px black;
         border-radius: 100px;
         width: 100px;

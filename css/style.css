@@ -99,6 +99,9 @@ footer {
     gap: 20px;
   
 }
+.main__groupe-btnColors_couleur:hover{
+    transform: scale(1.1);
+}
 
 .main__groupe-btnColors_couleur {
     border: ridge 1px black;
@@ -108,7 +111,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    font-weight: bold; 
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out;
 }
 
 h1 {
@@ -146,12 +151,22 @@ h5{
 .projetCard{
     display: flex;
     gap: 400px;
-    margin: 30px;
+    margin: 50px; 
     
+    overflow: hidden; 
+    transition: transform 0.7s ease-in-out;
+}
+.projetCard:hover{
+    transform: scale(1.1);
     
+    box-shadow: 10px 5px 20px rgb(206, 206, 206);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 1px;
 }
 .projet{
     margin-bottom: 50px;
+   
 }
 .imgProjet{
     border-radius: 10px ;
@@ -172,7 +187,7 @@ figure{
 }
 .dispositionContact{
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around; 
     margin-top: 100px;
     gap: 50px;
     font-size: 20px;

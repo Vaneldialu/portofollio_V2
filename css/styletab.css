@@ -141,7 +141,7 @@
     }
     
     .projetCard{
-       
+       display: flex;
         gap: 30px;
         margin: 30px;
         
@@ -153,15 +153,16 @@
     .imgProjet{
         border-radius: 10px ;
         border: 30px solid rgb(241, 241, 241);
-        width: 90%;
+        width: 100%;
         object-fit: cover;
-        height: auto;
+        height: 50%;
     }
+    
     .descriptProjet{
         width: 100%;
         font-size: 20px;
         text-align: justify;
-        display: block;
+        
     }
     figure{
         margin: 0px;
@@ -174,10 +175,12 @@
   
     .dispositionContact{
         display: flex;
-        justify-content: space-around;
-        gap: 180px;
+        justify-content: space-between;
+        gap: 30px;
         font-size: 20px;
-        margin: 15dvh 10dvw 15dvh 10dvw;
+        margin: 25% 0% 20% 0%;
+       
+        
     }
     
     form{
@@ -185,6 +188,8 @@
         flex-wrap: wrap;
         gap: 10px;
         row-gap: 20px;
+        justify-content: center;
+        
         
     }
     input{
@@ -196,6 +201,10 @@
         height: 100px;
         width: 40dvw;
         margin-right: 3dvw;
+    }
+    p{
+        padding: 0px;
+        margin: 0px;
     }
 
 }

@@ -17,10 +17,17 @@
     
     .header {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
         padding: 20px;
         
+    }
+
+    .navigation{
+        padding: 0;
+        text-align: center;
+        flex-direction: row;
+
     }
     
     ul {
@@ -31,6 +38,12 @@
         text-decoration: none;
         list-style-type: none;
         gap: 10px;
+    }
+
+    .barre{
+        
+        border-right: 1px solid black;
+        padding: 0px 10px 0px 10px;
     }
     
  
@@ -74,6 +87,7 @@
     .photo_vanel {
         margin: 0px;
         height: auto;
+        
     }
     figure{
         margin: 0px;
@@ -119,8 +133,8 @@
         font-size: 20px;
     }
     
-    h1 {
-        font-size: 40px;
+    .header__h1 {
+        font-size: 20px;
     }
 
     h5{

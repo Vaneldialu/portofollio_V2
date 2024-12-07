@@ -217,7 +217,7 @@ form{
 input{
     height: 40px;
     width: 13dvw;
-    margin: 0px 5px 0px 10px;
+    margin: 0px 5px 0px 0px;
 }
 textarea{
     height: 100px;

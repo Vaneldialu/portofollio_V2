@@ -81,11 +81,25 @@
     
     footer {
         display: flex;
-        gap: 10px;
+        gap: 15px;
         justify-content: space-between;
-        margin-right: 30px;
+        font-size: 16px;
         padding-bottom: 30px;
+      
         
+    }
+    .footer__icone-reseaux{
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+    .footer__reseauxSociaux{
+        width: 100px;
+    }
+    .footer__phoneNumber{
+        display: flex;
+        flex-direction: column;
     }
     
     .main__groupe-btnColors {
@@ -196,7 +210,7 @@
     input{
         height: 30px;
         width: 40dvw;
-        margin: 0px 5px 0px 10px;
+        margin: 0px 5px 0px 0px;
     }
     textarea{
         height: 100px;

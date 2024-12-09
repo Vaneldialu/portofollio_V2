@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleMobile.css" />
-    <link rel="stylesheet" href="/styletab.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/styleMobile.css" />
+    <link rel="stylesheet" href="/css/styletab.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,19 +18,16 @@
   </head>
 
   <body>
-    <div class="containair_0">
-        <div class="containair_1">
-            <a href="index.html"><strong>Vanel Dialundama</strong></a>
-          <div class="item_1.1">
-            <nav >
-              <ul class="navigation">
-                <li class="barre"><a href="pageCv.html">CV</a></li>
-                <li class="barre"><a href="pageProjets.html">Projets</a></li>
-                <li><a href="pageContact.html">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
+    <div class="containair">
+      <header class="header">
+        <a href="index.html"><h1 class="header__h1">Vanel Dialundama</h1></a>
+        <nav class="item_1.1">
+          <ul class="navigation">
+            <li class="barre"><a href="/cv.html">CV</a></li>
+            <li class="barre"><a href="/projets.html">Projets</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </header>
 
       <h1 class="projet">Projets </h1>
@@ -43,7 +40,7 @@
           </div>
           <div class="imgProjet">
             <figure>
-              <img src="assets/portofolio.png" alt="photo portofolio" width="100%"  >
+              <img src="/assets/picture-projets/portofolio.png" alt="photo portofolio" width="100%"  >
             </figure>
           </div>
           </div>
@@ -56,7 +53,7 @@
         </div>
         <div class="imgProjet">
           <figure>
-            <img src="assets/sunnyside.png" alt="photo site sunnyside" width="100%"  >
+            <img src="/assets/picture-projets/sunnyside.png" alt="photo site sunnyside" width="100%"  >
           </figure>
         </div>
         </div>
@@ -71,7 +68,7 @@
           </div>
           <div class="imgProjet">
             <figure>
-              <img src="assets/piano.png" alt="photo pianno" width="100%"  >
+              <img src="/assets/picture-projets/piano.png" alt="photo pianno" width="100%"  >
             </figure>
           </div>
         </div>
@@ -92,7 +89,7 @@
           </div>
           <div class="imgProjet">
             <figure>
-              <img src="assets/googleContact.png" alt="photo google Contact" width="100%"  >
+              <img src="/assets/picture-projets/googlecontact.png" alt="photo google Contact" width="100%"  >
             </figure>
           </div>
         </div>
@@ -106,7 +103,7 @@
           </div>
           <div class="imgProjet">
             <figure>
-              <img src="" alt="">
+              <img src="/assets/picture-projets/qrcode.png" alt="Short link & QR Code" width="100%" >
             </figure>
           </div>
         </div>
@@ -121,7 +118,7 @@
         </div>
         <div class="imgProjet">
           <figure>
-            <img src="" alt="">
+            <img src="/assets/picture-projets/blog.png" alt="Image du projet bloc avec adonis" width="100%">
           </figure>
         </div>
         </div>
@@ -129,60 +126,40 @@
       </div>
     
 
-   
-      <footer>
-        <hr />
-        <div class="containair_3">
-          <div class="item_4">
-            <strong>Télephone</strong> <br /><br />+243 891613534
-          </div>
-          <div class="item_5">
-            <strong>Email</strong> <br /><br /><a
-              href="mailto:vaneldialundama@gmail.com"
-              >vaneldialundama@gmail.com</a
-            >
-          </div>
-          <div class="item_6">
-            <strong>Suivez-moi</strong> <br />
-            <br />
-            <div class="logo">
-              <a href="https://web.facebook.com/profile.php?id=100068198603160">
-                <span>
-                  <svg
-                    alt="logo facebook"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"
-                      fill="black"
-                      fill-rule="nonzero"
-                    />
-                  </svg> </span
-              ></a>
-              <a href="https://www.instagram.com/vanel.dialu/">
-                <span>
-                  <svg
-                    alt="logo instagram"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.718-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zM10 0C7.284 0 6.944.012 5.877.06 2.246.227.227 2.242.061 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0zm0 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.338-9.87a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"
-                      fill="black"
-                      fill-rule="nonzero"
-                    /></svg></span
-              ></a>
-              <a href="https://www.linkedin.com/in/vanel-dialundama-67a7921b7/"
-                ><img src="assets/Vector.png" alt="logo linkdin"
-              /></a>
-            </div>
-          </div>
-          <a href="#top"><i class="fas fa-arrow-up"></i></a>
-          <div class="item_7">@ 2024 By Vanel Dialu</div>
-        </div>
-      </footer>
+   <hr>
+   <footer>
+    <div class="footer__phoneNumber">
+        <span>Télephone</span> 
+        <a href="tel:+243 891613534">+243891613534</a>
+    </div>
+    <div class="footer__email">
+      Email 
+      <a href="mailto:vaneldialundama@gmail.com">vaneldialu@gmail.com</a>
+    </div>
+    <div class="footer__reseauxSociaux">
+      Suivez-moi
+      <div class="footer__icone-reseaux">
+        <a href="https://web.facebook.com/profile.php?id=100068198603160" target="_blank">
+          <span>
+            <svg alt="footer__icone-reseaux facebook" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"
+                fill="black" fill-rule="nonzero" />
+            </svg> </span></a>
+        <a href="https://www.instagram.com/vanel.dialu/" target="_blank">
+          <span>
+            <svg alt="footer__icone-reseaux instagram" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.718-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zM10 0C7.284 0 6.944.012 5.877.06 2.246.227.227 2.242.061 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0zm0 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.338-9.87a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"
+                fill="black" fill-rule="nonzero" />
+            </svg></span></a>
+        <a href="https://www.linkedin.com/in/vanel-dialundama-67a7921b7/" target="_blank"><img src="assets/icones/link-inlogo.png"
+            alt="linkdin" /></a>
+      </div>
+    </div>
+    <a href="#top"><i class="fas fa-arrow-up"></i></a>
+    <div class="copyring">@ 2024 By Vanel Dialu</div>
+</footer>
+  
       </div>
     </body>

@@ -227,7 +227,10 @@ textarea{
 button{
     margin-left: 50px;
 }
-
+.form__inputInline{
+    display: flex;
+    flex-direction: column;
+}
  
  
   

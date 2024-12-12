@@ -189,7 +189,7 @@ figure{
 [href='#top']{
     display: none;
 }
-.dispositionContact{
+.containair__dispositionContact{
     display: flex;
     justify-content: space-around; 
     margin-top: 100px;
@@ -197,7 +197,7 @@ figure{
     font-size: 20px;
     margin: 20dvh 10dvw 20dvh 10dvw;
 }
-.firstContainer{
+.containair__difirstContainer{
     display: flex;
     flex-direction: column;
     width: 50%;

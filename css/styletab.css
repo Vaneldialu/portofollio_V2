@@ -188,7 +188,7 @@
         flex-direction: column;
     }
   
-    .dispositionContact{
+    .containair__dispositionContact{
         display: flex;
         justify-content: space-between;
         gap: 30px;

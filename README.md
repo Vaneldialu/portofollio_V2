@@ -27,3 +27,4 @@ Le projet est organisé de manière claire et lisible :
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
    git clone https://github.com/kadea-academy-learners/projet-portfolio-en-html-et-css-mobile-first-Vaneldialu.git
+2. Ouvrez le fichier index.html dans un navigateur pour visualiser le portfolio.

@@ -231,7 +231,9 @@ button{
     display: flex;
     flex-direction: column;
 }
- 
+ .imgForProjet{
+    width: 100%;
+ }
  
   
 }

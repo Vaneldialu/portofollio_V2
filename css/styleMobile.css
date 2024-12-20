@@ -90,6 +90,9 @@
     figure{
         margin: 0px;
     }
+    .imgForProjet{
+        width: 100%;
+    }
     
     footer {
         display: flex;

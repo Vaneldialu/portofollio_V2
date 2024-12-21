@@ -10,7 +10,7 @@
     
     .containair {
         padding: 0px ;
-        margin: 0px;
+        margin: 10px;
         
         
     }
@@ -160,7 +160,8 @@
         color: black;
     }
     .date{
-        padding-left: 70vw;
+        float: right;
+        font-size: 1rem;
     }
     .prghParcour{
         text-align: justify;

@@ -87,7 +87,11 @@ footer {
     padding-bottom: 30px;
     
 }
-
+.footer__phoneNumber,
+.footer__email{
+    display: flex;
+    flex-direction: column;
+}
 
 .main__groupe-btnColors {
     display: flex;

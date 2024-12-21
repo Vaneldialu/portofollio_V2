@@ -67,6 +67,9 @@ ul{
     font-size: 20px;
     line-height: 1.5;
 }
+.langue{
+    margin-bottom: 50px;
+}
 .presentation {
     line-height: 1.5;
     text-align: justify;

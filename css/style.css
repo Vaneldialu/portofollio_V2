@@ -233,7 +233,12 @@ button{
  .imgForProjet{
     width: 100%;
  }
- 
+ .container__gap{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    line-height: 25px;
+ }
   
 }
 

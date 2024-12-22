@@ -56,9 +56,12 @@
         gap: 20px;
 
     }
+
     .main__groupe-btnColors_couleur:hover {
         transition: 0.5s ease;
-    } .main__groupe-btnColors_couleur:hover {
+    }
+
+    .main__groupe-btnColors_couleur:hover {
         transform: scale(1.1);
     }
 
@@ -68,8 +71,6 @@
         gap: 30px;
         justify-content: space-between;
         margin: 30px;
-        padding-bottom: 30px;
-
     }
 
     .footer__phoneNumber,
@@ -78,7 +79,8 @@
         flex-direction: column;
         align-items: start;
     }
-    .footer__style--bold{
+
+    .footer__style--bold {
         font-weight: bold;
     }
 
@@ -91,7 +93,22 @@
         border-right: ridge 1px black;
         padding-right: 20px;
     }
+/* page projet */
+.projetCard{
+    display: flex;
+    gap: 20vw;
 
+}
+.imgProjet,
+.descriptProjet{
+    width: 50%;
+    height: 100%;
+}
+.containair__titre-projet{
+  text-align: left;
+  padding: 0;
+  font-size: 2rem;
+}
 
 }
 

@@ -138,5 +138,8 @@
     [type=submit] {
         margin: 1dvw 0dvw 0dvw 3dvw;
     }
+    .containair__difirstContainer{
+        display: inline-block;
+    }
 
 }
